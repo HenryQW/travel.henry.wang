@@ -4,7 +4,6 @@
     <main role="main">
       <nuxt/>
     </main>
-    <Footer/>
   </div>
 </template>
 
@@ -19,6 +18,3 @@ export default {
   }
 }
 </script>
-
-<style>
-</style>

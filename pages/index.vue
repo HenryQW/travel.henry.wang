@@ -1,8 +1,6 @@
 <template>
-  <section class="container">
-    <div>
-      <Map/>
-    </div>
+  <section class="container is-full">
+    <Map/>
   </section>
 </template>
 
@@ -18,4 +16,9 @@ export default {
 
 
 <style>
+.container.is-full {
+  flex: none;
+  width: 100%;
+  max-width: 100%;
+}
 </style>

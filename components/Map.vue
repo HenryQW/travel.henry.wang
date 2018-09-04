@@ -1,5 +1,5 @@
 <template>
-  <div id="map" class="map" style="height:90vh;"/>
+  <div id="map" class="map" style="height:calc(100vh - 3.25rem);"/>
 </template>
 
 <script>
@@ -15,21 +15,11 @@ export default {
         "pk.eyJ1Ijoid3FyNjI0IiwiYSI6ImNpdTh0djF0cTAwMG0yb3BqMGwxeHJ4ZWQifQ.ZxuqJ97h61SLdI-CtV0HIw"
       const map = new mapboxgl.Map({
         container: "map",
-        style: "mapbox://styles/mapbox/streets-v10",
-        center: [-74.5, 40],
-        zoom: 9
+        style: "mapbox://styles/wqr624/cjlnqdmy96gku2rpdplxlo5pt",
+        center: [-3, 55],
+        zoom: 2
       })
       map.addControl(new mapboxgl.NavigationControl())
-
-      const mapCanvas = document.getElementsByClassName("mapboxgl-canvas")[0]
-
-      window.addEventListener("resize", function() {
-        mapCanvas.style.width = "100%"
-        mapCanvas.style.height = "100%"
-        map.style.width = "100%"
-        map.style.height = "100%"
-        map.resize()
-      })
     }
   }
 }
