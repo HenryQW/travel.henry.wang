@@ -60,7 +60,9 @@ export default {
             }</span><span class="tag is-warning is-medium">${
               feature.properties.place_name.split(", ")[1]
             }</span><span class="tag is-danger is-medium">${
-              feature.properties.year
+              feature.properties.year !== undefined
+                ? feature.properties.year
+                : "Home"
             }</span></div>`
           )
           .setLngLat(feature.geometry.coordinates)
