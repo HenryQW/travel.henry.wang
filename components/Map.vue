@@ -41,9 +41,10 @@ export default {
         }
 
         var feature = features[0]
+
         map.flyTo({
           center: feature.geometry.coordinates,
-          zoom: 4,
+          zoom: map.getZoom() > 4 ? map.getZoom() : 4,
           bearing: 0,
           speed: 1,
           curve: 2,
