@@ -13,7 +13,7 @@ module.exports = {
       {
         rel: "icon",
         type: "image/x-icon",
-        href: "http://share.henry.wang/Gas8YQ/A3N3SMk61t+"
+        href: "https://share.henry.wang/Gas8YQ/A3N3SMk61t+"
       }
     ]
   },
