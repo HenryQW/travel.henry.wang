@@ -3,11 +3,19 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: "travel-map",
+    title: "Henry and Mia's Trails",
     meta: [
       { charset: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "Nuxt.js project" }
+      {
+        name: "viewport",
+        content:
+          "width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no"
+      },
+      {
+        hid: "description",
+        name: "description",
+        content: "Henry and Mia's Trails"
+      }
     ],
     link: [
       {
