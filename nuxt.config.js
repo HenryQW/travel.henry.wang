@@ -33,5 +33,10 @@ module.exports = {
       }
     }
   },
-  css: ["bulma", "@/assets/css/main.scss"]
+  css: [
+    { src: "bulma/bulma.sass", lang: "sass" },
+    { src: "~/assets/fontawesome-free/css/all.css", lang: "css" },
+    { src: "mapbox-gl/dist/mapbox-gl.css", lang: "css" }
+  ],
+  plugins: [{ src: "~/assets/js/NavBar.js", ssr: false }]
 }

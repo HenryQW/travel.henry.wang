@@ -15,9 +15,11 @@
   },
   "dependencies": {
     "bulma": "^0.7.1",
+    "mapbox-gl": "^0.48.0",
     "nuxt": "^1.0.0"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.3.1",
     "babel-eslint": "^8.2.6",
     "eslint": "^5.3.0",
     "eslint-config-prettier": "^3.0.1",
