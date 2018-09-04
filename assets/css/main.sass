@@ -1,0 +1,38 @@
+@import '../../node_modules/bulma/sass/utilities/_all.sass'
+
+
+$background-color: $background !default
+$radius: $radius !default
+$padding: 1.25rem 2.5rem 1.25rem 1.5rem !default
+
+.mapboxgl-popup-content
+  +block
+  background-color: $background-color !important
+  border-radius: $radius !important
+  padding: $padding !important
+  position: relative !important
+  a:not(.button)
+    color: currentColor !important
+    text-decoration: underline !important
+  strong
+    color: currentColor !important
+  code,
+  pre
+    background: $white !important
+  pre code
+    background: transparent !important
+  & > .mapboxgl-popup-close-button
+    position: absolute !important
+    right: 0.5rem !important
+    top: 0.5rem !important
+  .title,
+  .subtitle,
+  .content
+    color: currentColor !important
+  // Colors
+  @each $name, $pair in $colors
+    $color: nth($pair, 1) !important
+    $color-invert: nth($pair, 2) !important
+    &.is-#{$name}
+      background-color: $color !important
+      color: $color-invert !important

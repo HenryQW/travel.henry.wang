@@ -49,6 +49,7 @@ module.exports = {
   },
   css: [
     { src: "bulma/bulma.sass", lang: "sass" },
+    { src: "~/assets/css/main.sass", lang: "sass" },
     { src: "~/assets/fontawesome-free/css/all.css", lang: "css" },
     { src: "mapbox-gl/dist/mapbox-gl.css", lang: "css" }
   ],

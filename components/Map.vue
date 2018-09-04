@@ -53,7 +53,15 @@ export default {
         })
         new mapboxgl.Popup({ offset: [0, -15] })
           .setLngLat(feature.geometry.coordinates)
-          .setHTML("<h3>" + feature.properties.place_name + "</h3>")
+          .setHTML(
+            `<div class="tags has-addons"><span class="tag is-success is-medium">${
+              feature.properties.place_name.split(", ")[0]
+            }</span><span class="tag is-warning is-medium">${
+              feature.properties.place_name.split(", ")[1]
+            }</span><span class="tag is-danger is-medium">${
+              feature.properties.year
+            }</span></div>`
+          )
           .setLngLat(feature.geometry.coordinates)
           .addTo(map)
       })
