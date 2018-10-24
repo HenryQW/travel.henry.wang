@@ -22,7 +22,7 @@
             <a class="navbar-item" href="https://henry.wang">
               Blog
             </a>
-            <a class="navbar-item" href="ttps://api.henry.wang">
+            <a class="navbar-item" href="https://api.henry.wang">
               API
             </a>
           </div>
