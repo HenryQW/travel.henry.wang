@@ -19,7 +19,7 @@
     "nuxt": "1.4.2"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "5.3.1",
+    "@fortawesome/fontawesome-free": "5.7.2",
     "babel-eslint": "8.2.6",
     "eslint": "5.3.0",
     "eslint-config-prettier": "3.0.1",
