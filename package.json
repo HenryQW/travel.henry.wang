@@ -14,21 +14,21 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "bulma": "^0.7.1",
-    "mapbox-gl": "^0.48.0",
-    "nuxt": "^1.0.0"
+    "bulma": "0.7.1",
+    "mapbox-gl": "0.48.0",
+    "nuxt": "1.4.2"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.3.1",
-    "babel-eslint": "^8.2.6",
-    "eslint": "^5.3.0",
-    "eslint-config-prettier": "^3.0.1",
-    "eslint-friendly-formatter": "^3.0.0",
-    "eslint-loader": "^2.1.0",
-    "eslint-plugin-prettier": "^2.6.2",
-    "eslint-plugin-vue": "^4.7.1",
-    "node-sass": "^4.9.3",
-    "prettier": "^1.14.2",
-    "sass-loader": "^7.1.0"
+    "@fortawesome/fontawesome-free": "5.3.1",
+    "babel-eslint": "8.2.6",
+    "eslint": "5.3.0",
+    "eslint-config-prettier": "3.0.1",
+    "eslint-friendly-formatter": "3.0.0",
+    "eslint-loader": "2.1.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "eslint-plugin-vue": "4.7.1",
+    "node-sass": "4.9.3",
+    "prettier": "1.14.2",
+    "sass-loader": "7.1.0"
   }
 }
