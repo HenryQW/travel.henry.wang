@@ -22,7 +22,7 @@
     "@fortawesome/fontawesome-free": "5.7.2",
     "babel-eslint": "8.2.6",
     "eslint": "5.13.0",
-    "eslint-config-prettier": "3.6.0",
+    "eslint-config-prettier": "4.0.0",
     "eslint-friendly-formatter": "3.0.0",
     "eslint-loader": "2.1.2",
     "eslint-plugin-prettier": "2.6.2",
