@@ -13,7 +13,7 @@
     <div id="navbarData" class="navbar-menu">
       <div class="navbar-start">
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link" href="/documentation/overview/start/">
+          <a class="navbar-link" href="#">
             More
           </a>
           <div class="navbar-dropdown is-boxed">
