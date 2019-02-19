@@ -1,15 +1,13 @@
 <template>
-  <nav class="navbar is-light">
+  <nav class="navbar is-dark">
     <div class="navbar-brand">
       <a class="navbar-item" href="/">
-        <span class="tag is-rounded is-white is-medium">
-        <img src="/logo.jpg" width="28" height="28">✈️Travel</span>
+        <span class="tag is-rounded is-white is-medium logo-span">
+          <img src="logo.svg" width="28" height="28">
+          Travel
+        </span>
       </a>
-      <div class="navbar-burger burger" data-target="navbarData">
-        <span/>
-        <span/>
-        <span/>
-      </div>
+      <div class="navbar-burger burger" data-target="navbarData"/>
     </div>
 
     <div id="navbarData" class="navbar-menu">
