@@ -1,5 +1,5 @@
 <template>
-  <div id="map" class="map" style="height:calc(100vh - 3.25rem);"/>
+  <div id="map" class="map" style="height:calc(100vh - 3.25rem);" />
 </template>
 
 <script>
@@ -72,5 +72,4 @@ export default {
   }
 }
 </script>
-<style>
-</style>
+<style></style>

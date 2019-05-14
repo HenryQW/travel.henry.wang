@@ -1,6 +1,6 @@
 <template>
   <section class="container is-full">
-    <Map/>
+    <Map />
   </section>
 </template>
 
@@ -13,7 +13,6 @@ export default {
   }
 }
 </script>
-
 
 <style>
 .container.is-full {

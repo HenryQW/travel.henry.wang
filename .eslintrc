@@ -12,11 +12,27 @@
     "plugin:vue/strongly-recommended",
     "plugin:prettier/recommended"
   ],
-  "plugins": ["vue"],
+  "plugins": [
+    "vue"
+  ],
   "rules": {
-    "semi": [2, "never"],
+    "semi": [
+      2,
+      "never"
+    ],
     "no-console": "off",
     "vue/max-attributes-per-line": "off",
-    "prettier/prettier": ["error", { "semi": false }]
+    "vue/html-closing-bracket-spacing": "off",
+    "vue/html-self-closing": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "semi": false,
+        "tabWidth": 2,
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "arrowParens": "always"
+      }
+    ]
   }
 }

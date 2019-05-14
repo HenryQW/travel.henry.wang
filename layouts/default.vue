@@ -1,8 +1,8 @@
 <template>
   <div>
-    <NavBar/>
+    <NavBar />
     <main role="main">
-      <nuxt/>
+      <nuxt />
     </main>
   </div>
 </template>
