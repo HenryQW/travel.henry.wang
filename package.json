@@ -14,7 +14,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "bulma": "0.7.4",
+    "bulma": "0.7.5",
     "mapbox-gl": "0.54.0",
     "nuxt": "2.6.3"
   },
