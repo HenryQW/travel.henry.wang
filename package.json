@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "bulma": "0.7.5",
-    "mapbox-gl": "0.54.0",
+    "mapbox-gl": "1.0.0",
     "nuxt": "2.6.3"
   },
   "devDependencies": {
