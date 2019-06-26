@@ -3,7 +3,7 @@
     <div class="navbar-brand">
       <a class="navbar-item" href="/">
         <span class="tag is-rounded is-white is-medium logo-span">
-          <img src="logo.svg" width="28" height="28" />
+          <img src="logo.svg" width="28" height="28">
           Travel
         </span>
       </a>

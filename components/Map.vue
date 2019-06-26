@@ -4,43 +4,41 @@
 
 <script>
 export default {
-  name: "MapBox",
+  name: 'MapBox',
   mounted() {
     this.createMap()
   },
   methods: {
     createMap: () => {
-      const mapboxgl = require("mapbox-gl")
-      mapboxgl.accessToken =
-        "pk.eyJ1Ijoid3FyNjI0IiwiYSI6ImNpdTh0djF0cTAwMG0yb3BqMGwxeHJ4ZWQifQ.ZxuqJ97h61SLdI-CtV0HIw"
+      const mapboxgl = require('mapbox-gl')
+      mapboxgl.accessToken = process.env.MAPBOX_TOKEN;
+
       const map = new mapboxgl.Map({
-        container: "map",
-        style: "mapbox://styles/wqr624/cjlnqdmy96gku2rpdplxlo5pt",
+        container: 'map',
+        style: 'mapbox://styles/wqr624/cjlnqdmy96gku2rpdplxlo5pt',
         center: [-3, 55],
         zoom: 2
       })
       map.addControl(new mapboxgl.NavigationControl())
 
-      map.on("mouseover", "symbols", function(e) {
-        console.log(e)
-        map.getCanvas().style.cursor = "pointer"
+      map.on('mouseover', 'symbols', function (e) {
+        map.getCanvas().style.cursor = 'pointer'
       })
 
       // Change it back to a pointer when it leaves.
-      map.on("mouseleave", "symbols", function(e) {
-        console.log(e)
-        map.getCanvas().style.cursor = ""
+      map.on('mouseleave', 'symbols', function (e) {
+        map.getCanvas().style.cursor = ''
       })
 
-      map.on("click", function(e) {
-        var features = map.queryRenderedFeatures(e.point, {
-          layers: ["travels"]
+      map.on('click', function (e) {
+        const features = map.queryRenderedFeatures(e.point, {
+          layers: ['travels']
         })
         if (!features.length) {
           return
         }
 
-        var feature = features[0]
+        const feature = features[0]
 
         map.flyTo({
           center: feature.geometry.coordinates,
@@ -48,7 +46,7 @@ export default {
           bearing: 0,
           speed: 1,
           curve: 2,
-          easing: function(t) {
+          easing: function (t) {
             return t
           }
         })
@@ -56,14 +54,16 @@ export default {
           .setLngLat(feature.geometry.coordinates)
           .setHTML(
             `<div class="tags has-addons"><span class="tag is-success is-medium">${
-              feature.properties.place_name.split(", ")[0]
+              feature.properties.place_name.split(', ')[0]
             }</span><span class="tag is-warning is-medium">${
-              feature.properties.place_name.split(", ")[1]
-            }</span><span class="tag is-danger is-medium">${
+              feature.properties.place_name.split(', ')[1]
+            }</span>${
               feature.properties.year !== undefined
-                ? feature.properties.year
-                : "Home"
-            }</span></div>`
+                ? '<span class="tag is-danger is-medium">' +
+                  feature.properties.year +
+                  '</span></div>'
+                : ''
+            }`
           )
           .setLngLat(feature.geometry.coordinates)
           .addTo(map)
@@ -72,4 +72,8 @@ export default {
   }
 }
 </script>
-<style></style>
+<style>
+.mapboxgl-popup, .mapboxgl-popup-anchor-bottom {
+  max-width: fit-content !important;
+}
+</style>

@@ -1,9 +1,11 @@
+require("dotenv").config();
+
 module.exports = {
   /*
-  ** Headers of the page
-  */
+   ** Headers of the page
+   */
   head: {
-    title: "Henry and Mia's Trails",
+    title: "Henry's Trails",
     meta: [
       { charset: "utf-8" },
       {
@@ -14,7 +16,7 @@ module.exports = {
       {
         hid: "description",
         name: "description",
-        content: "Henry and Mia's Trails"
+        content: "Henry's Trails"
       },
       {
         name: "msapplication-TileColor",
@@ -60,12 +62,12 @@ module.exports = {
     ]
   },
   /*
-  ** Customize the progress bar color
-  */
+   ** Customize the progress bar color
+   */
   loading: { color: "#3B8070" },
   /*
-  ** Build configuration
-  */
+   ** Build configuration
+   */
   build: {
     /*
      ** Run ESLint on save
@@ -78,5 +80,8 @@ module.exports = {
     { src: "~/assets/fontawesome-free/css/all.css", lang: "css" },
     { src: "mapbox-gl/dist/mapbox-gl.css", lang: "css" }
   ],
-  plugins: [{ src: "~/assets/js/NavBar.js", ssr: false }]
-}
+  plugins: [{ src: "~/assets/js/NavBar.js", ssr: false }],
+  env: {
+    MAPBOX_TOKEN: process.env.MAPBOX_TOKEN
+  }
+};

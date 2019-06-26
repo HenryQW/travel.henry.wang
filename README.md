@@ -1,4 +1,4 @@
-# Henry and Mia's Trails
+# travel.henry.wang
 
 https://travel.henry.wang/
 
