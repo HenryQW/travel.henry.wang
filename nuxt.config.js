@@ -68,18 +68,9 @@ module.exports = {
   */
   build: {
     /*
-    ** Run ESLint on save
-    */
-    extend(config, { isDev, isClient }) {
-      if (isDev && isClient) {
-        config.module.rules.push({
-          enforce: "pre",
-          test: /\.(js|vue)$/,
-          loader: "eslint-loader",
-          exclude: /(node_modules)/
-        })
-      }
-    }
+     ** Run ESLint on save
+     */
+    extend(config, ctx) {}
   },
   css: [
     { src: "bulma/bulma.sass", lang: "sass" },
