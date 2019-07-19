@@ -16,7 +16,7 @@
     "@nuxtjs/bulma": "1.2.4",
     "mapbox-gl": "1.1.1",
     "nuxt": "2.8.1",
-    "snyk": "1.194.0"
+    "snyk": "1.195.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "5.9.0",
@@ -25,8 +25,8 @@
     "dotenv": "8.0.0",
     "eslint": "6.0.1",
     "eslint-config-standard": "12.0.0",
-    "eslint-plugin-import": "2.18.0",
-    "eslint-plugin-jest": "22.10.0",
+    "eslint-plugin-import": "2.18.1",
+    "eslint-plugin-jest": "22.11.1",
     "eslint-plugin-node": "9.1.0",
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-standard": "4.0.0",
