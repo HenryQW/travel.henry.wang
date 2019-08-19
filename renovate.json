@@ -1,4 +1,18 @@
 {
-  "extends": ["config:base"],
-  "groupName": ["all"]
+  "extends": [
+    "config:base"
+  ],
+  "groupName": [
+    "all"
+  ],
+  "packageRules": [
+    {
+      "packageNames": [
+        "snyk"
+      ],
+      "extends": [
+        "schedule:monthly"
+      ]
+    }
+  ]
 }
