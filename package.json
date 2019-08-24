@@ -19,7 +19,7 @@
     "snyk": "^1.217.3"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "5.10.1",
+    "@fortawesome/fontawesome-free": "5.10.2",
     "@nuxtjs/eslint-config": "1.1.2",
     "babel-eslint": "10.0.2",
     "dotenv": "8.1.0",
