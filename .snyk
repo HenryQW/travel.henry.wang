@@ -36,3 +36,8 @@ patch:
         patched: '2019-08-18T05:16:54.663Z'
     - nuxt > @nuxt/webpack > extract-css-chunks-webpack-plugin > webpack-external-import > @babel/helper-module-imports > @babel/types > lodash:
         patched: '2019-08-21T22:40:12.238Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-02T12:58:33.848Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-02T12:58:33.848Z'
