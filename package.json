@@ -14,9 +14,9 @@
   },
   "dependencies": {
     "@nuxtjs/bulma": "1.2.6",
-    "mapbox-gl": "1.6.0",
+    "mapbox-gl": "1.6.1",
     "nuxt": "2.11.0",
-    "snyk": "1.258.2"
+    "snyk": "1.264.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "5.12.0",
