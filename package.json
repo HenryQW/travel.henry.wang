@@ -13,10 +13,10 @@
     "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
-    "@nuxtjs/bulma": "1.2.6",
-    "mapbox-gl": "1.8.0",
+    "@nuxtjs/bulma": "1.2.7",
+    "mapbox-gl": "1.8.1",
     "nuxt": "2.11.0",
-    "snyk": "1.296.0"
+    "snyk": "1.297.1"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "5.12.1",
