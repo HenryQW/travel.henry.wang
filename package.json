@@ -16,7 +16,7 @@
     "@nuxtjs/bulma": "1.2.7",
     "mapbox-gl": "1.9.1",
     "nuxt": "2.12.2",
-    "snyk": "1.305.0"
+    "snyk": "1.309.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "5.13.0",
@@ -31,7 +31,7 @@
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-standard": "4.0.1",
     "eslint-plugin-vue": "6.2.2",
-    "node-sass": "4.13.1",
+    "node-sass": "4.14.0",
     "nodemon": "2.0.3",
     "sass-loader": "8.0.2"
   },
