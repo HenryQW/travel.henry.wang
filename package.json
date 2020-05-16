@@ -16,7 +16,7 @@
     "@nuxtjs/bulma": "1.2.7",
     "mapbox-gl": "1.10.1",
     "nuxt": "2.12.2",
-    "snyk": "1.321.0"
+    "snyk": "^1.321.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "5.13.0",
