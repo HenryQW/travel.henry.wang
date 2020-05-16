@@ -122,3 +122,5 @@ patch:
         patched: '2020-05-01T01:39:41.194Z'
     - nuxt > @nuxt/builder > @nuxt/webpack > webpack-bundle-analyzer > lodash:
         patched: '2020-05-01T01:39:41.194Z'
+    - snyk > snyk-docker-plugin > snyk-nodejs-lockfile-parser > snyk-config > lodash:
+        patched: '2020-05-16T07:10:16.134Z'
