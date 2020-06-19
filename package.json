@@ -16,14 +16,14 @@
     "@nuxtjs/bulma": "1.2.7",
     "mapbox-gl": "1.11.0",
     "nuxt": "2.12.2",
-    "snyk": "1.339.1"
+    "snyk": "1.346.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "5.13.0",
     "@nuxtjs/eslint-config": "2.0.2",
     "babel-eslint": "10.1.0",
     "dotenv": "8.2.0",
-    "eslint": "7.2.0",
+    "eslint": "7.3.0",
     "eslint-config-standard": "14.1.1",
     "eslint-plugin-import": "2.21.2",
     "eslint-plugin-jest": "23.13.2",
