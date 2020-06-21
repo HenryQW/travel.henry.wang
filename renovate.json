@@ -19,7 +19,8 @@
         "minor",
         "patch",
         "pin",
-        "digest"
+        "digest",
+        "chore(deps)"
       ],
       "automerge": true
     }
