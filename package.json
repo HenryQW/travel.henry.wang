@@ -13,7 +13,7 @@
   "dependencies": {
     "@nuxtjs/bulma": "1.2.7",
     "mapbox-gl": "1.11.0",
-    "nuxt": "2.12.2"
+    "nuxt": "2.13.1"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "5.13.0",
