@@ -20,7 +20,8 @@
         "patch",
         "pin",
         "digest",
-        "chore(deps)"
+        "chore(deps)",
+        "fix(deps)"
       ],
       "automerge": true
     }
