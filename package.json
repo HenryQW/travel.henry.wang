@@ -8,12 +8,15 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@nuxtjs/bulma": "1.2.7",
     "mapbox-gl": "1.11.0",
-    "nuxt": "2.13.1"
+    "nuxt": "2.13.1",
+    "snyk": "^1.349.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "5.13.0",
@@ -31,5 +34,6 @@
     "node-sass": "4.14.1",
     "nodemon": "2.0.4",
     "sass-loader": "8.0.2"
-  }
+  },
+  "snyk": true
 }
