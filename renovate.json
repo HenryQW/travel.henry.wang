@@ -7,14 +7,6 @@
   ],
   "packageRules": [
     {
-      "packageNames": [
-        "snyk"
-      ],
-      "extends": [
-        "schedule:monthly"
-      ]
-    },
-    {
       "updateTypes": [
         "minor",
         "patch",
