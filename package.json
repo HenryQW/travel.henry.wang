@@ -30,6 +30,6 @@
     "eslint-plugin-vue": "7.1.0",
     "node-sass": "5.0.0",
     "nodemon": "2.0.6",
-    "sass-loader": "10.0.5"
+    "sass-loader": "10.1.0"
   }
 }
